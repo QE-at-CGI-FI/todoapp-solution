@@ -1,0 +1,5 @@
+.venv/
+.vscode/
+pytest.log
+test-results/
+.pytest_cache/
