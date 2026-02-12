@@ -43,4 +43,6 @@
 - [ USABILITY ] Down arrow as "Complete All" is unintuitive
 - [ NEW FEATURE REQUEST ] Item count should probably be on a page by page basis, not global
 - [ DEPENDENCIES ] The app has not been updated for 8 years and must be running on a version of React with known vulnerabilities
-
+- [ 404 ] Missing resource: https://todolist.james.am/learn.json returns 404 Not Found
+- [ 404 ] Missing resource: https://todolist.james.am/api returns 404 Not Found
+- [ 404 ] Missing resource: https://todolist.james.am/favicon.ico returns 404 Not Found
