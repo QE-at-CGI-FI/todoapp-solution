@@ -42,3 +42,5 @@
 - [ NEW FEATURE REQUEST ] When using two tabs, the list is not kept up to date, requires manual refresh
 - [ USABILITY ] Down arrow as "Complete All" is unintuitive
 - [ NEW FEATURE REQUEST ] Item count should probably be on a page by page basis, not global
+- [ DEPENDENCIES ] The app has not been updated for 8 years and must be running on a version of React with known vulnerabilities
+
