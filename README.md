@@ -291,6 +291,10 @@ FAILING CLAIMS
 * [ LAYOUT ] Long text and delete button would look better if they were separated into own columns
 * [ DATA ] Some text selection get delete icon on top of text
 * [ CONSISTENCY ] Click icon for items that can be selected is hand on bottom, regular on other selections
+- [ LAYOUT ] When window is made smaller, title overlaps itself
+- [ NEW FEATURE REQUEST ] When using two tabs, the list is not kept up to date, requires manual refresh
+- [ USABILITY ] Down arrow as "Complete All" is unintuitive
+- [ NEW FEATURE REQUEST ] Item count should probably be on a page by page basis, not global
 
 ### For React https://todomvc.com/examples/react/dist/
 
