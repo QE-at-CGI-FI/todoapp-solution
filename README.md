@@ -17,7 +17,7 @@ For seasoned, I use a target for testing as an in-interview exercise, limited in
 Developer community uses To Do App to showcase different technical framework implementations. Here's two different implementations of the To Do App for you to test and showcase your testing work. 
 
 * Elm: https://todomvc.com/examples/elm/
-* Angular: https://todolist.james.am/#/
+* Angular: https://todolist.james.am/#/ - source: https://github.com/TheJambo/ToDoInterviewTest
 
 As a result of your testing, please provide: 
 
