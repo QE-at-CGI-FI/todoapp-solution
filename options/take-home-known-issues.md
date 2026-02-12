@@ -54,3 +54,8 @@
 - [ MISSING ] No error handling for failed operations
 - [ MISSING ] No loading states or user feedback during async operations
 - [ ARCHITECTURE ] Lack of proper separation of concerns and error boundaries
+- [ TESTABILITY ] Delete button element inconsistency: Switches between text "×" and proper button elements based on item completion state, making reliable automation difficult
+- [ TESTABILITY ] Unreliable element targeting: Some UI elements (like mark-all checkbox) have overlapping clickable areas that interfere with automation
+- [ TESTABILITY ] Navigation testing limitations: Browser history manipulation requires JavaScript evaluation rather than native browser controls
+- [ TESTABILITY ] State persistence inconsistent: Some test scenarios show unexpected item states after page interactions
+- [ TESTABILITY ] Missing accessibility attributes: Lack of proper aria-labels and test identifiers makes reliable element selection challenging
