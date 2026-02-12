@@ -1,49 +1,41 @@
 # Requirements
 
-1) Onboarding and empty state
-As first-time user, I want a focused, clutter-free start so I can immediately add my first task. 
+## 1) Onboarding & Empty State
 
-* When there are no tasks, 
+As a first-time user, I want a focused, clutter-free start so I can immediately add my first task.
 
+- When there are no tasks, the main task area and any footer/controls are not displayed, keeping the interface clean.
+- On first load, the app should let the user start typing a task immediately without extra clicks (e.g., the input is ready and clearly visible).
+- The task input shows helpful placeholder text that guides the user.
 
-# Requirements 
+## 2) Capturing Tasks
 
-## 1) Onboarding & Empty State 
+Adding tasks should be fast and forgiving so users can build their list without friction.
 
-As a first-time user, I want a focused, clutter-free start so I can immediately add my first task. 
+- Users can add a new task by entering text and confirming (e.g., press Enter).
+- Empty or whitespace-only entries are not allowed; the app prevents creating blank tasks.
+- After adding a task, the input clears and remains ready for the next entry.
+- The app accepts tasks of varying length and content (e.g., short, long, symbols/Unicode, Scandic) without breaking layout or behavior.
+- Once at least one task exists, the previously hidden main area and footer become visible.
 
-- When there are no tasks, the main task area and any footer/controls are not displayed, keeping the interface clean. 
-- On first load, the app should let the user start typing a task immediately without extra clicks (e.g., the input is ready and clearly visible). 
-- The task input shows helpful placeholder text that guides the user. 
+## 3) Individual Task Management
 
-## 2) Capturing Tasks 
+Each task should be manageable in isolation for accurate tracking.
 
-Adding tasks should be fast and forgiving so users can build their list without friction. 
+- A task can be marked complete and later returned to active status.
+- A task can be edited in place. While editing, other controls for that task are hidden to avoid accidental clicks.
+- Edits are saved when the user confirms (e.g., Enter) or finishes editing (e.g., moving focus away).
+- If the edited text is only whitespace, the task is removed rather than saved blank.
+- Users can cancel an edit (e.g., with Escape) so no unintended changes are applied.
+- Delete is available but unobtrusive: the removal control is discoverable on hover and removes only the chosen task.
 
-- Users can add a new task by entering text and confirming (e.g., press Enter). 
-- Empty or whitespace-only entries are not allowed; the app prevents creating blank tasks. 
-- After adding a task, the input clears and remains ready for the next entry. 
-- The app accepts tasks of varying length and content (e.g., short, long, symbols/Unicode, Scandic) without breaking layout or behavior. 
-- Once at least one task exists, the previously hidden main area and footer become visible. 
+## 4) Bulk Completion Control
 
-## 3) Individual Task Management 
+Users with many tasks need a quick way to reconcile their list’s status.
 
-Each task should be manageable in isolation for accurate tracking. 
-
-- A task can be marked complete and later returned to active status. 
-- A task can be edited in place. While editing, other controls for that task are hidden to avoid accidental clicks. 
-- Edits are saved when the user confirms (e.g., Enter) or finishes editing (e.g., moving focus away). 
-- If the edited text is only whitespace, the task is removed rather than saved blank. 
-- Users can cancel an edit (e.g., with Escape) so no unintended changes are applied. 
-- Delete is available but unobtrusive: the removal control is discoverable on hover and removes only the chosen task. 
-
-## 4) Bulk Completion Control 
-
-Users with many tasks need a quick way to reconcile their list’s status. 
-
-- A single control allows marking all tasks complete or clearing completion for all. 
-- If the list is in a mixed state, using this control completes all tasks by default. 
-- The bulk control’s on/off state reflects the current items: it updates automatically as individual tasks are toggled. 
+- A single control allows marking all tasks complete or clearing completion for all.
+- If the list is in a mixed state, using this control completes all tasks by default.
+- The bulk control’s on/off state reflects the current items: it updates automatically as individual tasks are toggled.
 
 ## 5) Views & Navigation (Filters)
 
@@ -65,6 +57,7 @@ Users want a simple, readable summary of remaining work.
 - The number is visually emphasized (e.g., bold) so it’s easy to spot.
 
 ## 7) Clearing Completed
+
 Clearing finished work helps keep the list tidy.
 
 - A control shows the number of completed tasks and allows clearing completed items with one action.
