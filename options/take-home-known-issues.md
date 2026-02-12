@@ -59,3 +59,6 @@
 - [ TESTABILITY ] Navigation testing limitations: Browser history manipulation requires JavaScript evaluation rather than native browser controls
 - [ TESTABILITY ] State persistence inconsistent: Some test scenarios show unexpected item states after page interactions
 - [ TESTABILITY ] Missing accessibility attributes: Lack of proper aria-labels and test identifiers makes reliable element selection challenging
+- [ FUNCTIONALITY ] Delete button visibility inconsistent: Delete button (×) not reliably visible or findable via automation, particularly when testing multiple todo items
+- [ FUNCTIONALITY ] Browser history navigation broken: Using window.history.back() doesn't properly navigate between filter states, causing navigation to hang indefinitely
+- [ FUNCTIONALITY ] Race condition in item creation: Newly created items don't immediately show expected delete buttons or proper DOM structure for automation
