@@ -62,3 +62,13 @@
 - [ FUNCTIONALITY ] Delete button visibility inconsistent: Delete button (×) not reliably visible or findable via automation, particularly when testing multiple todo items
 - [ FUNCTIONALITY ] Browser history navigation broken: Using window.history.back() doesn't properly navigate between filter states, causing navigation to hang indefinitely
 - [ FUNCTIONALITY ] Race condition in item creation: Newly created items don't immediately show expected delete buttons or proper DOM structure for automation
+- [ BUG ] Empty state layout broken: Main task area and footer controls remain visible when no tasks exist, violating clean interface requirement
+- [ BUG ] Input validation missing: Application accepts empty and whitespace-only task entries, creating blank tasks contrary to requirements
+- [ BUG ] Status counter grammar incorrect: Counter doesn't use proper singular/plural grammar (should be "1 item left" vs "2 items left")
+- [ BUG ] Status counter formatting wrong: Numbers not visually emphasized (not bold) and may contain decorative punctuation
+- [ BUG ] Clear completed button behavior broken: Doesn't show count of completed tasks and isn't properly hidden when no completed tasks exist
+- [ BUG ] Session persistence incomplete: Tasks and completion states don't reliably persist across browser restart/device reboot scenarios
+- [ BUG ] Filter view persistence partial: Selected view state (All/Active/Completed) doesn't consistently persist across page refreshes and browser restarts
+- [ BUG ] Input focus missing on load: Input field doesn't automatically receive focus on first page load for immediate task entry
+- [ BUG ] UI state transitions broken: Main area and footer don't properly show/hide when transitioning between empty and populated states
+
