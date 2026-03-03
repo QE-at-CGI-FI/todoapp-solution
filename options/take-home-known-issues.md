@@ -71,4 +71,5 @@
 - [ BUG ] Filter view persistence partial: Selected view state (All/Active/Completed) doesn't consistently persist across page refreshes and browser restarts
 - [ BUG ] Input focus missing on load: Input field doesn't automatically receive focus on first page load for immediate task entry
 - [ BUG ] UI state transitions broken: Main area and footer don't properly show/hide when transitioning between empty and populated states
-
+- [ NEW FEATURE REQUEST ] Width horizontally could be wider, less whitespace
+- [ NEW FEATURE REQUEST ] Is title case intended?
