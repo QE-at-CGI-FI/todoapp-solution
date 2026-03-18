@@ -73,3 +73,5 @@
 - [ BUG ] UI state transitions broken: Main area and footer don't properly show/hide when transitioning between empty and populated states
 - [ NEW FEATURE REQUEST ] Width horizontally could be wider, less whitespace
 - [ NEW FEATURE REQUEST ] Is title case intended?
+- [ FEATURE REQUEST ] Active selected tab could be visually emphasized
+- [ BUG ] Excessive zooming breaks the layout
