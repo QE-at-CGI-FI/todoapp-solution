@@ -75,3 +75,4 @@
 - [ NEW FEATURE REQUEST ] Is title case intended?
 - [ FEATURE REQUEST ] Active selected tab could be visually emphasized
 - [ BUG ] Excessive zooming breaks the layout
+- [ BUG ] While the URL updates, the selected view filter is not saved to local storage.
